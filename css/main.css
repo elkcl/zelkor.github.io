@@ -1,6 +1,5 @@
 header {
 	font: bold 36pt "Comic Sans MS";
-	height: 150px;
 	background-color: #ddd
 }
 
@@ -13,7 +12,7 @@ header {
 }
 
 #logo {
-	border: dashed thin #fff;
+	border: dashed thin #ddd;
 	margin: 20px;
 }
 
