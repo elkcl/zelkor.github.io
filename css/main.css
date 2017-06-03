@@ -28,6 +28,9 @@ header {
 
 footer {
 	padding: 10px;
+	border-top-color: #000;
+	border-top-style: dotted;
+	border-top-width: thin;
 }
 
 #main {
@@ -42,5 +45,8 @@ footer {
 
 #slogan {
 	color: #32cd32;
-	font: italic normal 11pt sans-serif;
+	font: italic normal 13pt sans-serif;
+	position: absolute;
+	top: 90px;
+	left: 140px;
 }
