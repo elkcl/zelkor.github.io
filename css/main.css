@@ -13,9 +13,10 @@
 
 #logo {
 	margin: 10px;
+	margin-bottom: 0px;
 	padding: 0px;
 }
 
 #title {
-	vertical-align: 60px;
+	vertical-align: 30px;
 }
