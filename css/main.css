@@ -1,4 +1,8 @@
-#header {
+body {
+	margin: 0px;
+}
+
+header {
 	font: bold 36pt "Comic Sans MS";
 	background-color: #ddd
 }
@@ -19,4 +23,5 @@
 
 #title {
 	vertical-align: 35px;
+	color: green;
 }
