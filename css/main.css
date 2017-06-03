@@ -1,7 +1,22 @@
 header {
-	font: bold 24pt "Comic Sans MS"
+	font: bold 36pt "Comic Sans MS";
+	height: 150px;
+	background-color: #ddd
 }
 
 .green {
-	color: #32cd32
+	color: #32cd32;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+#logo {
+	border: dashed thin #fff;
+	margin: 20px;
+}
+
+#title {
+	vertical-align: middle;
 }
