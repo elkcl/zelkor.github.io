@@ -5,11 +5,14 @@ body {
 
 header {
 	font: bold 36pt "Comic Sans MS";
-	background-color: #ddd
+	background-color: #ddd;
+	border-bottom-color: #000;
+	border-bottom-style: dotted;
+	border-bottom-width: thin;
 }
 
 .green {
-	color: #32cd32;
+	color: green;
 }
 
 .bold {
@@ -44,8 +47,8 @@ footer {
 }
 
 #slogan {
-	color: #32cd32;
-	font: italic normal 13pt sans-serif;
+	color: #000;
+	font: italic normal 18pt sans-serif;
 	position: absolute;
 	top: 90px;
 	left: 140px;
