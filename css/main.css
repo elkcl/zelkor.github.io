@@ -41,7 +41,7 @@ footer {
 #main {
 	margin: 0px 200px;
 	padding: 10px;
-	background-color: #fff;
+	background-image: url(../img/background.jpg);
 }
 
 #background {
