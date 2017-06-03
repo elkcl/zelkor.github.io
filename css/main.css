@@ -24,7 +24,6 @@ header {
 
 #title {
 	vertical-align: 35px;
-	color: #32cd32;
 }
 
 footer {
@@ -39,4 +38,9 @@ footer {
 
 #background {
 	background-color: #32cd32;
+}
+
+#slogan {
+	color: #32cd32;
+	font: italic normal 11pt sans-serif;
 }
