@@ -1,6 +1,7 @@
 body {
 	margin: 0px;
 	font: 13pt sans-serif;
+	background-color: #32cd32;
 }
 
 header {
@@ -29,8 +30,10 @@ header {
 
 footer {
 	margin: 10px;
+	background-color: #fff;
 }
 
 #main {
-	margin: 150px;
+	margin: 0px 150px;
+	background-color: #fff;
 }
