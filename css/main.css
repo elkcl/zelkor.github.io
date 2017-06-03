@@ -55,3 +55,11 @@ footer {
 	top: 90px;
 	left: 145px;
 }
+
+.italic {
+	font-style: italic;
+}
+
+.funny {
+	font-family: "Comic Sans MS"
+}
