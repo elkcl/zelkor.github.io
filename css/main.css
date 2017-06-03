@@ -1,7 +1,6 @@
 body {
 	margin: 0px;
 	font: 13pt sans-serif;
-	background-color: #32cd32;
 }
 
 header {
@@ -29,11 +28,14 @@ header {
 }
 
 footer {
-	margin: 10px;
-	background-color: #fff;
+	padding: 10px;
 }
 
 #main {
 	margin: 0px 150px;
 	background-color: #fff;
+}
+
+#bground {
+	background-color: #32cd32;
 }
