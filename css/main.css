@@ -44,9 +44,9 @@ footer {
 	background-color: #fff;
 }
 
-#background {
+/* #background {
 	background-image: url(../img/background.jpg);
-}
+} */
 
 #slogan {
 	color: #000;
@@ -70,10 +70,10 @@ nav {
 	position: fixed;
 	top: 135px;
 	left: 10px;
+	border: dashed green 2px;
 }
 
 nav a {
-	border-top: solid thin #ddd;
 	border-bottom: solid thin #ddd;
 	padding: 10px;
 	font: bold 16pt "Comic Sans MS";
@@ -104,7 +104,7 @@ nav a:hover {
 	position: fixed;
 	top: 135px;
 	right: 10px;
-	border: none;
+	border: dashed green 2px;
 	border-collapse: collapse;
 }
 
@@ -124,16 +124,12 @@ td {
 	font-weight: bold;
 }
 
-#contacts a:link {
+#contacts a:link, #contacts a:visited {
 	color: #32cd32;
 }
 
 #contacts a:hover {
 	color: green;
-}
-
-#contacts a:visited {
-	color: #006400;
 }
 
 .bottom-border {
