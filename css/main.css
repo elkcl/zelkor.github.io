@@ -73,7 +73,6 @@ nav {
 }
 
 nav a {
-	border-top: solid thin #ddd;
 	border-bottom: solid thin #ddd;
 	padding: 10px;
 	font: bold 16pt "Comic Sans MS";
@@ -124,16 +123,12 @@ td {
 	font-weight: bold;
 }
 
-#contacts a:link {
+#contacts a:link, #contacts a:visited {
 	color: #32cd32;
 }
 
 #contacts a:hover {
 	color: green;
-}
-
-#contacts a:visited {
-	color: #006400;
 }
 
 .bottom-border {
