@@ -65,3 +65,11 @@ footer {
 .funny {
 	font-family: "Comic Sans MS"
 }
+
+nav {
+	background-color: white;
+	width: 150px;
+	position: fixed;
+	top: 145px;
+	left: 25px;
+}
