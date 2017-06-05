@@ -68,17 +68,19 @@ footer {
 
 nav {
 	background-color: white;
-	width: 150px;
+	width: 180px;
 	position: fixed;
-	top: 145px;
-	left: 25px;
+	top: 140px;
+	left: 10px;
 }
 
 nav a {
 	border-top: solid thin #ddd;
 	border-bottom: solid thin #ddd;
 	padding: 10px;
-	font: bold 13pt "Comic Sans MS";
+	font: bold 16pt "Comic Sans MS";
+	text-decoration: none;
+	display: block;
 }
 
 nav a:link, nav a:visited {
