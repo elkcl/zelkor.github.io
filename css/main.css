@@ -73,3 +73,28 @@ nav {
 	top: 145px;
 	left: 25px;
 }
+
+nav a {
+	border-top: solid thin #ddd;
+	border-bottom: solid thin #ddd;
+	padding: 10px;
+	font: bold 13pt "Comic Sans MS";
+}
+
+nav a:link, nav a:visited {
+	color: green;
+	border-color: #ddd;
+	background-color: #fff;
+}
+
+nav a:hover {
+	color: #fff;
+	border-color: #ddd;
+	background-color: green;
+}
+
+.selected {
+	color: #fff;
+	border-color: #ddd;
+	background-color: green;
+}
