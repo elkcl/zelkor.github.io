@@ -6,9 +6,6 @@ body {
 header {
 	font: bold 36pt "Comic Sans MS";
 	background-color: #ddd;
-	border-bottom-color: #000;
-	border-bottom-style: dotted;
-	border-bottom-width: thin;
 }
 
 .green {
@@ -72,6 +69,7 @@ nav {
 	position: fixed;
 	top: 140px;
 	left: 10px;
+	border: dashed green 2px;
 }
 
 nav a {
@@ -91,7 +89,6 @@ nav a:link, nav a:visited {
 
 nav a:hover {
 	color: #fff;
-	border-color: #ddd;
 	background-color: green;
 }
 
