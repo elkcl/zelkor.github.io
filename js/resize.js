@@ -1,7 +1,6 @@
 function resizeMain() {
-	var columnHeight = document.getElementById("contacts").style.height;
-	if (document.getElementById("main").style.height < (columnHeight + 10)) {
-		document.getElementById("main").style.height = columnHeight + 10;
+	if (document.body.clientHeight < 640) {
+		document.getElementById("main").style.height = "450px";
 	}
 }
 
