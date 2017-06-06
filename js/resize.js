@@ -1,6 +1,6 @@
 function resizeMain() {
-	if (document.body.clientHeight < 582) {
-		document.getElementById("main").style.height = "392px";
+	if (document.body.clientHeight < 640) {
+		document.getElementById("main").style.height = "450px";
 	}
 }
 
