@@ -135,3 +135,24 @@ td {
 .bottom-border {
 	border-bottom: solid thin #ddd;
 }
+
+h1 {
+	font-family: Comic Sans MS;
+	color: green;
+}
+
+h2, h3 {
+	color: green;
+}
+
+ol {
+	list-style-type: none;
+	counter-reset: num;
+}
+
+li::before {
+	content: counter(num) '. ';
+	counter-increment: num;
+	color: green;
+	font-weight: bold;
+} 
