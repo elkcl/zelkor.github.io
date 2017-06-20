@@ -80,7 +80,7 @@ nav a {
 	display: block;
 }
 
-nav a:link, nav a:visited {
+nav a:link:not(.selected), nav a:visited:not(.selected) {
 	color: green;
 	border-color: #ddd;
 	background-color: #fff;
@@ -155,7 +155,6 @@ ol li::before {
 	counter-increment: num;
 	color: green;
 	font-weight: bold;
-	list-style-position: outside;
 } 
 
 .signature {
