@@ -86,14 +86,13 @@ nav a:link:not(.selected), nav a:visited:not(.selected) {
 	background-color: #fff;
 }
 
-nav a:hover {
+nav a:hover:not(.selected) {
 	color: #fff;
 	background-color: green;
 }
 
 .selected {
 	color: #fff;
-	border-color: #ddd;
 	background-color: green;
 }
 
