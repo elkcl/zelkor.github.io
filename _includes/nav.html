@@ -1,7 +1,7 @@
 <nav>
-	<a href="#title">Новости организации</a>
-	<a href="#title">Проекты</a>
-	<a href="#title">Исследования</a>
-	<a href="#title">"Базилик"</a>
-	<a href="{{site.baseurl}}/about">О нас</a>
+	<a href="{{site.baseurl}}/">Новости организации</a>
+	<a href="{{site.baseurl}}/">Проекты</a>
+	<a href="{{site.baseurl}}/">Исследования</a>
+	<a href="{{site.baseurl}}/">"Базилик"</a>
+	<a href="{{site.baseurl}}/about" {% if page.url contains 'about' %}class="selected"{% endif %}>О нас</a>
 </nav>

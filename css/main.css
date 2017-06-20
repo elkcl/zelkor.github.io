@@ -150,9 +150,15 @@ ol {
 	counter-reset: num;
 }
 
-li::before {
+ol li::before {
 	content: counter(num) '. ';
 	counter-increment: num;
 	color: green;
 	font-weight: bold;
+	list-style-position: outside;
 } 
+
+.signature {
+	text-align: right;
+	font-style: italic;
+}
