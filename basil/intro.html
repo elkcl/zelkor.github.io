@@ -3,11 +3,11 @@ layout: default
 ---
 
 <h1>Вступительные выпуски</h1>
-<ul>
+<ol>
   {% for issue in site.data.intro %}
     <li class="top-border">
       <h2>{{issue.title}}</h2>
       <div class="right-align">Скачать: <a href="/basil/docx/intro/{{issue.filename}}.docx">DOCX</a> <a href="/basil/pdf/intro/{{issue.filename}}.pdf">PDF</a></div>
     </li>
   {% endfor %}
-</ul>
+</ol>

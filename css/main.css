@@ -103,7 +103,7 @@ nav a:hover:not(.selected) {
 	background-color: green;
 }
 
-.selected {
+nav .selected {
 	color: #fff;
 	background-color: green;
 }
