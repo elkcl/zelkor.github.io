@@ -3,11 +3,11 @@ layout: default
 ---
 
 <h1>Объявления</h1>
-<ol>
+<ul>
   {% for issue in site.data.announcements %}
     <li class="top-border">
       <h2>{{issue.title}}</h2>
-      <div class="right-align">Скачать: <a href="/basil/docx/announcements/{{issue.filename}}.docx">DOCX</a> <a href="/basil/pdf/announcements/{{issue.filename}}.pdf">PDF</a></div>
+      <div class="right-align">Загрузить: <a href="/basil/docx/announcements/{{issue.filename}}.docx">DOCX</a> <a href="/basil/pdf/announcements/{{issue.filename}}.pdf">PDF</a></div>
     </li>
   {% endfor %}
-</ol>
+</ul>
