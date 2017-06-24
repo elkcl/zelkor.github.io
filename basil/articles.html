@@ -7,7 +7,7 @@ layout: default
   {% for issue in site.data.articles %}
     <li class="top-border">
       <h2>{{issue.title}}</h2>
-      <div class="right-align">Загрузить: <a href="/basil/docx/articles/{{issue.filename}}.docx">DOCX</a> <a href="/basil/pdf/articles/{{issue.filename}}.pdf">PDF</a></div>
+      <div class="right-align">Загрузить: <a href="/basil/docx/articles/{{issue.filename}}.docx" download>DOCX</a> <a href="/basil/pdf/articles/{{issue.filename}}.pdf" download>PDF</a></div>
     </li>
   {% endfor %}
 </ul>
