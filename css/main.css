@@ -3,6 +3,18 @@ body {
 	font: 13pt sans-serif;
 }
 
+a:link {
+	color: #32cd32;
+}
+
+a:hover {
+	color: green;
+}
+
+a:visited {
+	color: #006400;
+}
+
 header {
 	font: bold 36pt "Comic Sans MS";
 	background-color: #ddd;
@@ -135,6 +147,10 @@ td {
 	border-bottom: solid thin #ddd;
 }
 
+.top-border {
+	border-top: solid thin #ddd;
+}
+
 h1 {
 	font-family: Comic Sans MS;
 	color: green;
@@ -159,4 +175,8 @@ ol li::before {
 .signature {
 	text-align: right;
 	font-style: italic;
+}
+
+.right-align {
+	text-align: right;
 }
