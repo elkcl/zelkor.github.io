@@ -191,3 +191,11 @@ ol li::before {
 .right-align {
   text-align: right;
 }
+
+.red {
+  color: red;
+}
+
+.yellow {
+  color: #eff22a;
+}

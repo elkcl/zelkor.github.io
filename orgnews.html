@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<h1>Новости организации</h1>
+<p>В этом разделе вы можете первыми узнавать о событиях  в жизни
+и работе "Зеленого коридора".</p>
+
+<ul class="bottom-border">
+  {% for post in site.categories.orgnews %}
+  <li class="top-border">
+    <h2><a href="{{post.url}}">{{post.title}}</a></h2>
+    <span class="italic">Дата:</span> {{post.date | date: "%d/%m/%Y"}} <br />
+    {{post.meta}}
+  </li>
+  {% endfor %}
+</ul>

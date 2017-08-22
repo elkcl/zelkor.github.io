@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<h1>Рубрика "Интересные экофакты"</h1>
+<ul class="bottom-border">
+  {% for issue in site.data.ecofacts %}
+    <li class="top-border">
+      <h2>{{issue.title}}</h2>
+      <div class="right-align">Загрузить: <a href="/basil/docx/ecofacts/{{issue.filename}}.docx" download>DOCX</a> <a href="/basil/pdf/ecofacts/{{issue.filename}}.pdf" download>PDF</a></div>
+    </li>
+  {% endfor %}
+</ul>

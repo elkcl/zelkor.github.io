@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="ru" xml:lang="ru">
   <head>
-    <title>Зелёный коридор</title>
+    <title>{% if page.title %}{{page.title}} | {% endif %}Зелёный коридор{% if page.titleAfter %} | {{page.titleAfter}}{% endif %}</title>
     <meta charset="utf-8" />
+    <meta name="description" content="{{page.meta}}">
     <link rel="shortcut icon" href="/img/icon.png" />
     <link type="text/css" rel="stylesheet" href="/css/main.css" />
     <script type="text/javascript" src="/js/resize.js"></script>
