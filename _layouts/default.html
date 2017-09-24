@@ -6,7 +6,7 @@
     <meta name="description" content="{{page.meta}}">
     <link rel="shortcut icon" href="/img/icon.png" />
     <link type="text/css" rel="stylesheet" href="/css/main.css" />
-    <script type="text/javascript" src="/js/resize.js"></script>
+    {% if page.layout != 'post' %}<script type="text/javascript" src="/js/resize.js"></script>{% endif %}
   </head>
   <body>
     <header>
@@ -19,6 +19,7 @@
     </div></div>
     <footer>
     СЭО "<span class="green">Зелёный коридор</span>", 2015-2017
+    <div style="float: right"><a href="http://1543.ru" target="_blank" class="no-visited">Сайт гимназии №1543</a></div>
     </footer>
     {% include nav.html %}
     {% include contacts.html %}

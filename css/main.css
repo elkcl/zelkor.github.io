@@ -199,3 +199,7 @@ ol li::before {
 .yellow {
   color: #eff22a;
 }
+
+a:visited.no-visited {
+  color: #32cd32;
+}

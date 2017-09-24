@@ -1,0 +1,14 @@
+---
+layout: default
+title: 'Ежегодные отчёты · Базилик'
+---
+
+<h1>Ежегодные отчёты</h1>
+<ul>
+  {% for issue in site.data.results %}
+    <li class="top-border">
+      <h2>{{issue.title}}</h2>
+      <div class="right-align">Загрузить: <a href="/basil/docx/results/{{issue.filename}}.docx" download>DOCX</a> <a href="/basil/pdf/results/{{issue.filename}}.pdf" download>PDF</a></div>
+    </li>
+  {% endfor %}
+</ul>

@@ -1,6 +1,19 @@
 ---
 layout: default
-titleAfter: "Главная страница"
+titleAfter: "Самодеятельная экологическая организация гимназии №1543"
+meta: '"Зелёный коридор" - это самодеятельная
+
+экологическая организация гимназии №1543. Мы
+
+любим природу и работаем, чтобы мир оставался
+
+зелёным, цветущим и живым: проводим
+
+мероприятия по раздельному сбору мусора,
+
+рассказываем людям о проблемах окружающей
+
+среды и многое другое.'
 priority: 1.0
 ---
 
@@ -8,7 +21,7 @@ priority: 1.0
 {% include main_text.html %}
 <h2>Свежие новости</h2>
 <ul class="bottom-border">
-  {% for post in site.categories.orgnews limit:3 %}
+  {% for post in site.posts limit:3 %}
   <li class="top-border">
     <h2><a href="{{post.url}}">{{post.title}}</a></h2>
     <span class="italic">Дата:</span> {{post.date | date: "%d/%m/%Y"}} <br />
