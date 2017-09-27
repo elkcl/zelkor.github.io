@@ -28,7 +28,8 @@ a:visited {
 
 header {
   font: bold 36pt "Comic Sans MS";
-  background-color: #ddd;
+  background-color: #fff; //#ddd;
+  box-shadow: 3px 3px 1px rgba(0,0,0,.05);
 }
 
 .green {
@@ -65,6 +66,7 @@ footer {
   margin: 0px 200px;
   padding: 10px;
   background-color: #fff;
+  text-align: justify;
 }
 
 #background {
