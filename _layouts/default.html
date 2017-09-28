@@ -13,8 +13,24 @@
       <img src="/img/logo3.png" alt="Лого" id="logo" />
       <a href="/" id="title">Зелёный коридор</a><br />
       <span id="slogan">Один листок - один мир!</span>
-    </header>
-    <div id="background"><div id="main">
+      <div class="nav">
+      <button class="nav-toggle">
+    <span class="bar-top"></span>
+    <span class="bar-mid"></span>
+    <span class="bar-bot"></span>
+  </button>
+  </div>
+  <script type="text/javascript">
+  (function () {
+  var toggle = document.querySelector('.nav-toggle');
+  
+  toggle.addEventListener('click', function(e) {
+    this.classList.toggle('opened');
+  });
+})();
+</script>
+   </header>
+   <div id="background"><div id="main">
     {{content}}
     </div></div>
     <footer>
