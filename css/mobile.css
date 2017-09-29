@@ -1,4 +1,8 @@
 @media (max-width: 768px) {
+  header {
+  background-color: #fff;
+  }
+  
  .nav {
   display: block;
   float: right
