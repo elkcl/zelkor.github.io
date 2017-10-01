@@ -10,8 +10,10 @@
 мероприятия по раздельному сбору мусора,
 рассказываем людям о проблемах окружающей
 среды и многое другое.">
+    <link href='http://zelkor.ml/feed.xml' rel='alternate' type='application/atom+xml' />
     <link rel="shortcut icon" href="/img/icon.png" />
     <link type="text/css" rel="stylesheet" href="/css/main.css" />
+    <link type="text/css" rel="stylesheet" href="/css/mobile.css" />
     <script type="text/javascript" src="/js/resize.js"></script>
   </head>
   <body>
@@ -19,8 +21,24 @@
       <img src="/img/logo3.png" alt="Лого" id="logo" />
       <a href="/" id="title">Зелёный коридор</a><br />
       <span id="slogan">Один листок - один мир!</span>
-    </header>
-    <div id="background"><div id="main">
+      <div class="nav">
+      <button class="nav-toggle">
+    <span class="bar-top"></span>
+    <span class="bar-mid"></span>
+    <span class="bar-bot"></span>
+  </button>
+  </div>
+  <script type="text/javascript">
+  (function () {
+  var toggle = document.querySelector('.nav-toggle');
+  
+  toggle.addEventListener('click', function(e) {
+    this.classList.toggle('opened');
+  });
+})();
+</script>
+   </header>
+   <div id="background"><div id="main">
     <h1>Добро пожаловать!</h1>
 <p>«<span class="green">Зелёный коридор</span>» - это самодеятельная
 
@@ -42,8 +60,8 @@
   
   <li class="top-border">
     <h2><a href="/orgnews/2017/08/24/opening/">Открытие сайта</a></h2>
-    <span class="italic">Дата:</span> 24/08/2017 <br />
-    Сайт "Зелёного коридора" открылся! Ура!
+    <span class="italic">Дата:</span> 24.08.2017 <br />
+    <span class="italic">Мы с вами присутствуем при поворотном моменте нашей истории, открытии сайта "Зелёного коридора".</span>
   </li>
   
 </ul>
@@ -51,7 +69,7 @@
     </div></div>
     <footer>
     СЭО "<span class="green">Зелёный коридор</span>", 2015-2017
-    <div style="float: right"><a href="http://1543.ru" target="_blank" class="no-visited">Сайт гимназии №1543</a></div>
+    <div style="float: right;"><a href="http://1543.ru" target="_blank" class="no-visited">Сайт гимназии №1543</a></div>
     </footer>
     <nav>
   <a href="/orgnews" >Новости организации</a>
@@ -83,7 +101,8 @@
   <td colspan="2">Наш e-mail: <a href="mailto:main@zelkor.ml">main@zelkor.ml</a></td>
   </tr>
   <tr>
-  <td colspan="2"><a href="http://bit.ly/ZelKorNews" target="_blank">Наша e-mail рассылка</a></td>
+  <td><a href="http://bit.ly/ZelKorNews" target="_blank">Наша e-mail рассылка</a></td>
+  <td><a href="/feed.xml">RSS</a></td>
   </tr>
 </table>
   </body>

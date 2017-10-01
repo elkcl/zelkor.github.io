@@ -1,2 +1,5 @@
 exclude: ['README.md', 'CNAME']
 permalink: pretty
+name: '"Зелёный коридор"'
+description: 'Сайт самодеятельной экологической организации "Зелёный коридор" гимназии №1543'
+url: 'http://zelkor.ml'

@@ -4,8 +4,10 @@
     <title>О нас | Зелёный коридор</title>
     <meta charset="utf-8" />
     <meta name="description" content="Этот раздел посвящен автопортрету «Зеленого коридора»: его истории, идеям и людям, которые работают здесь.">
+    <link href='http://zelkor.ml/feed.xml' rel='alternate' type='application/atom+xml' />
     <link rel="shortcut icon" href="/img/icon.png" />
     <link type="text/css" rel="stylesheet" href="/css/main.css" />
+    <link type="text/css" rel="stylesheet" href="/css/mobile.css" />
     <script type="text/javascript" src="/js/resize.js"></script>
   </head>
   <body>
@@ -13,15 +15,30 @@
       <img src="/img/logo3.png" alt="Лого" id="logo" />
       <a href="/" id="title">Зелёный коридор</a><br />
       <span id="slogan">Один листок - один мир!</span>
-    </header>
-    <div id="background"><div id="main">
+      <div class="nav">
+      <button class="nav-toggle">
+    <span class="bar-top"></span>
+    <span class="bar-mid"></span>
+    <span class="bar-bot"></span>
+  </button>
+  </div>
+  <script type="text/javascript">
+  (function () {
+  var toggle = document.querySelector('.nav-toggle');
+  
+  toggle.addEventListener('click', function(e) {
+    this.classList.toggle('opened');
+  });
+})();
+</script>
+   </header>
+   <div id="background"><div id="main">
     <h1>О нас</h1>
 <p>Этот раздел посвящен автопортрету «Зеленого коридора»: его истории,
 идеям и людям, которые работают здесь.</p>
 <div class="signature">В 1969-м с друзьями придумали "Машину времени",<br />влезли в неё, и не вылезаем до сих пор.<br /><br />
 <span class="bold">А. Макаревич</span></div>
 
-(фотография)
 
 <!-- <h2>Наши принципы</h2>
 
@@ -53,7 +70,8 @@
 <li>Не при каких обстоятельствах (за исключением критической ситуации,
 
 какой – подскажет совесть) нельзя пренебрегать предыдущими правилами.</li>
-</ol> -->
+</ol> 
+-->
 <h2>История. 2015 – 2017 гг.</h2>
 
 <p>Всё началось 12 сентября 2015 г. на классном часе в 5В классе 47
@@ -202,16 +220,19 @@
 <span class="italic">Занятие:</span> экожурналист
 
 <h3>Владислав Начатой</h3>
+<span class="italic">Занятие:</span> инспектор по раздельному сбору мусора (батарейки)
+<p>Наша история началась с батареек, потому что их сбор и грамотная утилизация – один из простейших способов 
+помочь окружающей среде. Но работа с ними требует определённой доли аккуратности, чтоы избежать заражения, а ведь <span class="green">Владу</span> нужно пересчитать и отвезти в специализированный пункт сбора несколько сотен батареек за один раз. Несмотря на то, что в своей работе Влад соблюдает величайшую осторожность, в жизни ему присуще здоровое чувство юмора и иногда убийственный оптимизм.</p>
+ <span class="italic">Цитата:</span> "Ну, ладно."
 
-<h3>Владислав Величко</h3>
-(фотография) <br />
-<span class="italic">Занятие:</span> заведующий информационным отделом
-<p>Информация - стихия <span class="green">Влада</span>, он является ходячей энциклопедией флоры мира. Кроме того у него совершенно рыцарская натура: если бы пришлось, он бы заслонил кита от выстрела браконьера. Вред, нанесённый природе, Влад воспринимает чувствительнее, чем личное оскорбление, и не остановится, пока не сделает всё, от него зависящее, чтобы спасти окружающую среду.</p>
-<span class="italic">Цитата:</span>
+
+
+
+
     </div></div>
     <footer>
     СЭО "<span class="green">Зелёный коридор</span>", 2015-2017
-    <div style="float: right"><a href="http://1543.ru" target="_blank" class="no-visited">Сайт гимназии №1543</a></div>
+    <div style="float: right;"><a href="http://1543.ru" target="_blank" class="no-visited">Сайт гимназии №1543</a></div>
     </footer>
     <nav>
   <a href="/orgnews" >Новости организации</a>
@@ -243,7 +264,8 @@
   <td colspan="2">Наш e-mail: <a href="mailto:main@zelkor.ml">main@zelkor.ml</a></td>
   </tr>
   <tr>
-  <td colspan="2"><a href="http://bit.ly/ZelKorNews" target="_blank">Наша e-mail рассылка</a></td>
+  <td><a href="http://bit.ly/ZelKorNews" target="_blank">Наша e-mail рассылка</a></td>
+  <td><a href="/feed.xml">RSS</a></td>
   </tr>
 </table>
   </body>
