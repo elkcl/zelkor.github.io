@@ -210,3 +210,7 @@ a:visited.no-visited {
 .nav {
   display: none;
 }
+
+.fineprint {
+ font: 10pt sans-serif;
+}
