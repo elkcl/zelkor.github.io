@@ -1,1 +1,1 @@
-Sitemap: http://zelkor.ml/sitemap.xml
+Sitemap: https://zelkor.ml/sitemap.xml
