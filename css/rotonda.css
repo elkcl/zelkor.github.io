@@ -2,22 +2,22 @@
 
 @font-face {
 	font-family: 'Rotonda';
-	src: url('/fonts/rodonta/RotondaC.eot');
+	src: url('/fonts/rotonda/RotondaC.eot');
 	src: local('RotondaC'),
-		url('/fonts/rodonta/RotondaC.eot?#iefix') format('embedded-opentype'),
-		url('/fonts/rodonta/RotondaC.woff') format('woff'),
-		url('/fonts/rodonta/RotondaC.ttf') format('truetype');
+		url('/fonts/rotonda/RotondaC.eot?#iefix') format('embedded-opentype'),
+		url('/fonts/rotonda/RotondaC.woff') format('woff'),
+		url('/fonts/rotonda/RotondaC.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Rotonda';
-	src: url('/fonts/rodonta/RotondaC-Bold.eot');
+	src: url('/fonts/rotonda/RotondaC-Bold.eot');
 	src: local('RotondaC Bold'), local('RotondaC-Bold'),
-		url('/fonts/rodonta/RotondaC-Bold.eot?#iefix') format('embedded-opentype'),
-		url('/fonts/rodonta/RotondaC-Bold.woff') format('woff'),
-		url('/fonts/rodonta/RotondaC-Bold.ttf') format('truetype');
+		url('/fonts/rotonda/RotondaC-Bold.eot?#iefix') format('embedded-opentype'),
+		url('/fonts/rotonda/RotondaC-Bold.woff') format('woff'),
+		url('/fonts/rotonda/RotondaC-Bold.ttf') format('truetype');
 	font-weight: bold;
 	font-style: normal;
 }
