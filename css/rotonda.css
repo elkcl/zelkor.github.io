@@ -2,11 +2,11 @@
 
 @font-face {
 	font-family: 'Rotonda';
-	src: url('RotondaC.eot');
+	src: url('/fonts/rodonta/RotondaC.eot');
 	src: local('RotondaC'),
-		url('RotondaC.eot?#iefix') format('embedded-opentype'),
-		url('RotondaC.woff') format('woff'),
-		url('RotondaC.ttf') format('truetype');
+		url('/fonts/rodonta/RotondaC.eot?#iefix') format('embedded-opentype'),
+		url('/fonts/rodonta/RotondaC.woff') format('woff'),
+		url('/fonts/rodonta/RotondaC.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
