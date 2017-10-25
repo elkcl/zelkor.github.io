@@ -13,11 +13,11 @@
 
 @font-face {
 	font-family: 'Rotonda';
-	src: url('RotondaC-Bold.eot');
+	src: url('/fonts/rodonta/RotondaC-Bold.eot');
 	src: local('RotondaC Bold'), local('RotondaC-Bold'),
-		url('RotondaC-Bold.eot?#iefix') format('embedded-opentype'),
-		url('RotondaC-Bold.woff') format('woff'),
-		url('RotondaC-Bold.ttf') format('truetype');
+		url('/fonts/rodonta/RotondaC-Bold.eot?#iefix') format('embedded-opentype'),
+		url('/fonts/rodonta/RotondaC-Bold.woff') format('woff'),
+		url('/fonts/rodonta/RotondaC-Bold.ttf') format('truetype');
 	font-weight: bold;
 	font-style: normal;
 }
