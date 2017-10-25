@@ -27,7 +27,7 @@ a:visited {
 }
 
 header {
-  font: bold 36pt "Rotonda";
+  font: bold 36pt Rotonda;
   background-color: #ddd;
   box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
   z-index: 10;
@@ -87,7 +87,7 @@ footer {
 }
 
 .funny {
-  font-family: "Rotonda"
+  font-family: Rotonda;
   font-weight: bold;
 }
 
@@ -102,7 +102,7 @@ nav {
 nav a {
   border-bottom: solid thin #ddd;
   padding: 10px;
-  font: bold 16pt "Rotonda";
+  font: bold 16pt Rotonda;
   text-decoration: none;
   display: block;
 }
