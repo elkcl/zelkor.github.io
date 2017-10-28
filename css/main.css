@@ -29,7 +29,6 @@ a:visited {
 header {
   font: bold 36pt Rotonda;
   background-color: #ddd;
-  box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
   z-index: 10;
 }
 

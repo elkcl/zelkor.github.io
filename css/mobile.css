@@ -1,12 +1,54 @@
 @media (max-width: 768px) {
-  header {
+*, *:after, *:before {
+  transition: .5s ease-in-out;
+}
+
+header {
+  font-weight:bold;
+  font-family: Rotonda;
   background-color: #fff;
-  }
+  box-shadow: 3px 3px 1px rgba(0,0,0,0.5);
+  z-index: 10;
+  margin: 0px;
+}
   
- .nav {
+#main {
+  margin: 10px;
+  }
+
+#logo {
+  width: 10%;
+  height: 10%;
+}
+
+#title {
+  vertical-align: 50%;
+  font-size: 50%;
+}
+
+#slogan {
+  display:none;
+}
+
+#background {
+  background-color: #eee;
+  background-image: none;
+  margin: 0px;
+}
+
+#contacts {
+  display: none;
+}
+
+nav {
+  max-height: 0px;
+  overflow: hidden;
+}
+
+  .nav {
   display: block;
-  float: right
-  height: 100vh;
+  float: right;
+  margin-right: 0.5em;
  }
 
 .nav-toggle {
