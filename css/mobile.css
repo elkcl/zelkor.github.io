@@ -143,4 +143,8 @@ nav.opened {
   -webkit-transform-origin: 15% 95%;
           transform-origin: 15% 95%;
 }
+
+#mobsoc {
+display: block;
+}
 }
