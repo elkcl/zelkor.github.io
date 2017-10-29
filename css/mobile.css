@@ -3,26 +3,37 @@
   transition: .5s ease-in-out;
 }
 
+body {
+  background-color: #eee;
+}
+
 header {
-  font-weight:bold;
+  font-weight: bold;
   font-family: Rotonda;
   background-color: #fff;
   box-shadow: 3px 3px 1px rgba(0,0,0,0.5);
   z-index: 10;
   margin: 0px;
+  margin-bottom: 10px;
 }
-  
+
+footer {
+  background-color: #fff;
+}
+
 #main {
-  margin: 10px;
+  margin: 0px;
   }
 
 #logo {
-  width: 10%;
+  width: inherit;
   height: 10%;
+  margin: 10%;
+  vertical-align: middle;
 }
 
 #title {
-  vertical-align: 50%;
+  vertical-align: middle;
   font-size: 50%;
 }
 
@@ -34,10 +45,21 @@ header {
   background-color: #eee;
   background-image: none;
   margin: 0px;
+  padding: 0px 10px 10px;
 }
 
 #contacts {
   display: none;
+}
+
+#headerdesktop {
+  display: none;
+}
+
+#headermobile {
+  display: table;
+  border: none;
+  border-collapse: collapse;
 }
 
 nav {
@@ -45,10 +67,11 @@ nav {
   overflow: hidden;
 }
 
-  .nav {
+.nav {
   display: block;
   float: right;
-  margin-right: 0.5em;
+  margin-right: 5%;
+  margin-top: 1%;
  }
 
 .nav-toggle {

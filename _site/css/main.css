@@ -215,3 +215,7 @@ a:visited.no-visited {
 .fineprint {
  font: 10pt sans-serif;
 }
+
+#headermobile {
+  display: none;
+}
