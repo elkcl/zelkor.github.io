@@ -52,6 +52,7 @@
   
   toggle.addEventListener('click', function(e) {
     this.classList.toggle('opened');
+    document.getElementsByTagName('nav')[0].classList.toggle('opened');
   });
 })();
 </script>
@@ -68,8 +69,10 @@
 </ul>
     </div></div>
     <footer>
-    © СЭО "<span class="green"> Зелёный коридор</span>", 2015-2017
-    <div style="float: right;"><a href="http://1543.ru" target="_blank" class="no-visited">Сайт гимназии №1543</a></div>
+    © СЭО "<span class="green">Зелёный коридор</span>", 2015-2017
+    <div id="gymlink"><a href="http://1543.ru" target="_blank" class="no-visited">Сайт гимназии №1543</a></div>
+    Наш e-mail: <a href="mailto:main@zelkor.ml">main@zelkor.ml</a>
+    <div class="social"><img src="/img/vk_small.png" alt="ВК" class="socimg" /><img src="/img/tg_small.png" alt="Telegram" class="socimg" /><img src="/img/rss_small.png" alt="RSS" class="socimg" /><img src="/img/mail_small.png" alt="E-mail рассылка" class="socimg" /></div>
     </footer>
     <nav>
   <a href="/orgnews" >Новости организации</a>

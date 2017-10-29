@@ -219,3 +219,7 @@ a:visited.no-visited {
 #headermobile {
   display: none;
 }
+
+#gymlink {
+  float: right;
+}
