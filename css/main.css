@@ -227,3 +227,14 @@ a:visited.no-visited {
 #mobsoc {
 display: none;
 }
+
+.articleimg {
+  margin: 10px;
+  float: right;
+  padding: 0;
+  text-align: center;
+}
+
+.articleimg > a > img {
+  width: 400px;
+}
