@@ -11,7 +11,7 @@
 
 body {
   margin: 0px;
-  font: 16pt sans-serif;
+  font: 13pt sans-serif;
 }
 
 a:link {
@@ -101,7 +101,7 @@ nav {
 nav a {
   border-bottom: solid thin #ddd;
   padding: 10px;
-  font: bold 18pt Rotonda;
+  font: bold 16pt Rotonda;
   text-decoration: none;
   display: block;
 }
