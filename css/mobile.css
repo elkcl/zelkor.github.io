@@ -29,7 +29,7 @@ footer {
   }
 
 #logo {
-  width: inherit;
+  width: auto;
   height: 10%;
   margin: 10%;
   vertical-align: middle;
