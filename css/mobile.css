@@ -28,10 +28,10 @@ footer {
   margin: 0px;
   }
 
-#logo {
+.logo {
   width: auto;
-  height: 10%;
-  margin: 10%;
+  height: 50px;
+  margin: 6px;
   vertical-align: middle;
 }
 
