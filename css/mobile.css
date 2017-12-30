@@ -12,7 +12,7 @@ header {
   font-weight: bold;
   font-family: Rotonda;
   background-color: #fff;
-  box-shadow: 3px 3px 1px rgba(0,0,0,0.5);
+  box-shadow: 0px 3px 1px rgba(0,0,0,0.5);
   z-index: 10;
   margin: 0px;
   margin-bottom: 10px;
@@ -37,7 +37,7 @@ footer {
 
 #title {
   vertical-align: middle;
-  font-size: 44%;
+  font-size: 40%;
 }
 
 #slogan {

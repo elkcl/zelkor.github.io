@@ -20,7 +20,7 @@ priority: 1.0
 <h1>Добро пожаловать!</h1>
 {% include main_text.html %}
 <h2>Свежие новости</h2>
-<ul class="bottom-border">
+<div style="text-align: left;"><ul class="bottom-border">
   {% for post in site.posts limit:3 %}
   <li class="top-border">
     <h2><a href="{{post.url}}">{{post.title}}</a></h2>
@@ -29,3 +29,4 @@ priority: 1.0
   </li>
   {% endfor %}
 </ul>
+</div>
