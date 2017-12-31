@@ -233,12 +233,13 @@ display: none;
   float: right;
   padding: 0;
   text-align: center;
+  width: 70%
 }
 
 .articleimg > a > img {
-  width: 400px;
+  width: 100%;
 }
 
 .articleimg > img {
-  width: 400px;
+  width: 100%;
 }
