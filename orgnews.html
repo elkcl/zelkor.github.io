@@ -9,7 +9,7 @@ meta: 'В этом разделе вы можете первыми узнава�
 <p>В этом разделе вы можете первыми узнавать о событиях  в жизни
 и работе "Зеленого коридора".</p>
 
-<ul class="bottom-border">
+<div style="text-align: left;"><ul class="bottom-border">
   {% for post in site.categories.orgnews %}
   <li class="top-border">
     <h2><a href="{{post.url}}">{{post.title}}</a></h2>
@@ -17,4 +17,4 @@ meta: 'В этом разделе вы можете первыми узнава�
     <span class="italic">{{post.meta}}</span>
   </li>
   {% endfor %}
-</ul>
+</ul></div>

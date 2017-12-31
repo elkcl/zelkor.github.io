@@ -238,3 +238,7 @@ display: none;
 .articleimg > a > img {
   width: 400px;
 }
+
+.articleimg > img {
+  width: 400px;
+}
