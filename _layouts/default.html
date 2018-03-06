@@ -40,11 +40,11 @@
   </button>
   </div>
       <div id="headerdesktop"><img src="/img/logo3.png" alt="Лого" class="logo" />
-      <a href="/" class="title">Зелёный коридор</a><br />
+      <a href="/" class="no-visited title">Зелёный коридор</a><br />
       <span id="slogan">Один листок - один мир!</span></div>
       <table id="headermobile">
         <tr><td><img src="/img/logo3.png" alt="Лого" class="logo" /></td>
-          <td><a href="/" class="title">Зелёный коридор</a></td>
+          <td><a href="/" class="no-visited title">Зелёный коридор</a></td>
         </tr>
       </table>
       
@@ -52,7 +52,7 @@
   (function () {
   var toggle = document.querySelector('.nav-toggle');
   
-  toggle.addEventListener('click', function(e) {
+  toggle.addEventListener('click', function() {
     this.classList.toggle('opened');
     document.getElementsByTagName('nav')[0].classList.toggle('opened');
   });

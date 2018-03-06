@@ -240,3 +240,7 @@ display: none;
 .articleimg > img {
   width: 100%;
 }
+
+a:visited.title.no-visited {
+  color: green;
+}

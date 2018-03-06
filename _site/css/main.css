@@ -10,7 +10,7 @@
 } */
 
 body {
-  margin: 0px;
+  margin: 0;
   font: 13pt Arial, sans-serif;
 }
 
@@ -43,13 +43,12 @@ header {
 .logo {
   width: 100px;
   height: 100px;
-  margin: 10px;
-  margin-bottom: 0px;
-  padding: 0px;
+  margin: 10px 10px 0;
+  padding: 0;
   border: 2px solid #000;
 }
 
-#title {
+.title {
   vertical-align: 35px;
   color: green;
   text-decoration: none;
@@ -57,16 +56,14 @@ header {
 
 footer {
   padding: 10px;
-  border-top-color: #000;
-  border-top-style: dotted;
-  border-top-width: thin;
+  border-top: thin dotted #000;
 }
 
 #main {
-  margin: 0px 200px;
+  margin: 0 200px;
   padding: 10px;
   background-color: #fff;
-  text-align: justify;
+  text-align: left;
 }
 
 #background {
@@ -86,7 +83,7 @@ footer {
 }
 
 .funny {
-  font-family: Rotonda;
+  font-family: Rotonda, fantasy;
   font-weight: bold;
 }
 
@@ -166,7 +163,7 @@ td {
 }
 
 h1 {
-  font-family: Rotonda;
+  font-family: Rotonda, fantasy;
   font-weight: bold;
   color: green;
 }
@@ -242,4 +239,8 @@ display: none;
 
 .articleimg > img {
   width: 100%;
+}
+
+a:visited.title.no-visited {
+  color: green;
 }
