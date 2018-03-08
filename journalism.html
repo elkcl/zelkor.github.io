@@ -15,13 +15,4 @@ meta: 'Чтобы создать экологически чистый мир, �
 
 <p>В этой рубрике мы расскажем вам о событиях происходящих там, где люди борются
 за экологическое будущее нашей планеты.</p>
-
-<div style="text-align: left;"><ul class="bottom-border">
-  {% for post in site.categories.j_articles %}
-  <li class="top-border">
-    <h2><a href="{{post.url}}">{{post.title}}</a></h2>
-    <span class="italic">Дата:</span> {{post.date | date: "%d.%m.%Y"}} <br />
-    <span class="italic">{{post.meta}}</span>
-  </li>
-  {% endfor %}
-</ul></div>
+{% include cat_cycle.html category=site.categories.j_articles %}

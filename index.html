@@ -20,13 +20,4 @@ priority: 1.0
 <h1>Добро пожаловать!</h1>
 {% include main_text.html %}
 <h2>Свежие новости</h2>
-<div style="text-align: left;"><ul class="bottom-border">
-  {% for post in site.posts limit:3 %}
-  <li class="top-border">
-    <h2><a href="{{post.url}}">{{post.title}}</a></h2>
-    <span class="italic">Дата:</span> {{post.date | date: "%d.%m.%Y"}} <br />
-    <span class="italic">{{post.meta}}</span>
-  </li>
-  {% endfor %}
-</ul>
-</div>
+{% include post_cycle.html limit=3 %}

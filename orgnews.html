@@ -8,13 +8,4 @@ meta: 'В этом разделе вы можете первыми узнава�
 <h1>Новости организации</h1>
 <p>В этом разделе вы можете первыми узнавать о событиях  в жизни
 и работе "Зеленого коридора".</p>
-
-<div style="text-align: left;"><ul class="bottom-border">
-  {% for post in site.categories.orgnews %}
-  <li class="top-border">
-    <h2><a href="{{post.url}}">{{post.title}}</a></h2>
-    <span class="italic">Дата:</span> {{post.date | date: "%d.%m.%Y"}} <br />
-    <span class="italic">{{post.meta}}</span>
-  </li>
-  {% endfor %}
-</ul></div>
+{% include cat_cycle.html category=site.categories.orgnews %}
