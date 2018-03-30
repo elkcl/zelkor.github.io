@@ -3,3 +3,7 @@ permalink: pretty
 name: 'Зелёный коридор'
 description: 'Сайт самодеятельной экологической организации "Зелёный коридор" гимназии №1543'
 url: 'https://zelkor.ml'
+algolia:
+ application_id: 'LAX1QLYW8A'
+ index_name:     'jekyll'
+ search_only_api_key: 'f307fb7c842a1e1fe48a207c3b60b7ff'
