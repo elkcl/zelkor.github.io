@@ -64,6 +64,7 @@ footer {
   padding: 10px;
   background-color: #fff;
   text-align: left;
+  min-height: 420px;
 }
 
 #background {
