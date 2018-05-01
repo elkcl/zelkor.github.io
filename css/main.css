@@ -28,7 +28,7 @@ a:visited {
 }
 
 header {
-  font: bold 36pt Rotonda;
+  font: bold 30pt Rotonda;
   background-color: #fff;
   z-index: 10;
   box-shadow: 0 3px 1px rgba(0,0,0,0.5);
@@ -44,8 +44,8 @@ header {
 }
 
 .logo {
-  width: 100px;
-  height: 100px;
+  width: auto;
+  height: 75px;
   margin: 6px;
   padding: 0;
   border: 2px solid #000;
@@ -80,10 +80,10 @@ footer {
 
 #slogan {
   color: #000;
-  font: italic normal 16pt sans-serif;
+  font: italic normal 13pt sans-serif;
   position: absolute;
-  top: 90px;
-  left: 145px;
+  top: 70px;
+  left: 105px;
 }
 
 .italic {
