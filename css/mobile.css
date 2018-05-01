@@ -46,6 +46,10 @@ nav.opened {
   width: auto;
 }
 
+  .articleimg.small_img {
+    width: auto;
+  }
+
 .articleimg > a > img {
   width: 90%;
 }

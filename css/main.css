@@ -212,6 +212,10 @@ a:visited.no-visited {
   width: 50%
 }
 
+.articleimg.small_img {
+  width: 40%;
+}
+
 .articleimg > a > img {
   width: 100%;
 }
