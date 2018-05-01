@@ -12,6 +12,7 @@
 body {
   margin: 0;
   font: 13pt Arial, sans-serif;
+  background-color: #eee;
 }
 
 a:link {
@@ -28,8 +29,10 @@ a:visited {
 
 header {
   font: bold 36pt Rotonda;
-  background-color: #eee;
+  background-color: #fff;
   z-index: 10;
+  box-shadow: 0 3px 1px rgba(0,0,0,0.5);
+  margin: 0 0 10px;
 }
 
 .green {
@@ -43,24 +46,26 @@ header {
 .logo {
   width: 100px;
   height: 100px;
-  margin: 10px 10px 0;
+  margin: 6px;
   padding: 0;
   border: 2px solid #000;
+  vertical-align: middle;
 }
 
 .title {
-  vertical-align: 35px;
+  vertical-align: middle;
   color: green;
   text-decoration: none;
 }
 
 footer {
-  padding: 10px;
-  border-top: thin dotted #000;
+  background-color: #3C3D41;
+  text-align: center;
+  color: #fff;
 }
 
 #main {
-  margin: 0 200px;
+  margin: 0 0 0 200px;
   padding: 10px;
   background-color: #fff;
   text-align: left;
@@ -68,7 +73,9 @@ footer {
 }
 
 #background {
-  background-image: url(../img/background.jpg);
+  background: #eee none;
+  margin: 0;
+  padding: 0px 10px 10px;
 }
 
 #slogan {
@@ -94,6 +101,7 @@ nav {
   position: fixed;
   top: 147px;
   left: 10px;
+  box-shadow:2px 2px 12px 1px rgba(0,0,0,.2);
 }
 
 nav a {
@@ -120,16 +128,6 @@ nav .selected {
   background-color: green;
 }
 
-#contacts {
-  background-color: #fff;
-  width: 180px;
-  position: fixed;
-  top: 147px;
-  right: 10px;
-  border: none;
-  border-collapse: collapse;
-  font-size: 11pt;
-}
 
 td {
   padding: 5px;
@@ -141,18 +139,6 @@ td {
 .icon {
   width: 50px;
   height: 50px;
-}
-
-#tt {
-  font-weight: bold;
-}
-
-#contacts a:link, #contacts a:visited {
-  color: #32cd32;
-}
-
-#contacts a:hover {
-  color: green;
 }
 
 .bottom-border {
@@ -218,14 +204,6 @@ a:visited.no-visited {
   display: none;
 }
 
-#gymlink {
-  float: right;
-}
-
-#mobsoc {
-display: none;
-}
-
 .articleimg {
   margin: 10px;
   float: right;
@@ -277,4 +255,27 @@ a:visited.title.no-visited {
 }
 .post-snippet img {
   display: none;
+}
+
+#headermobile {
+  display: table;
+  border: none;
+  border-collapse: collapse;
+}
+
+.socimg {
+  margin: 1%;
+  width: 32px;
+}
+
+#gymlink {
+  float: right;
+  margin-top: -40px;
+  margin-right: 10px;
+}
+
+#cr {
+  float: left;
+  margin-top: -40px;
+  margin-left: 10px;
 }

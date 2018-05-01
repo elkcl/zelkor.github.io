@@ -46,14 +46,16 @@
     <span class="bar-bot"></span>
   </button>
   </div>
-      <div id="headerdesktop"><img src="/img/logo.png" alt="Лого" class="logo" />
+      <!--<div id="headerdesktop"><img src="/img/logo.png" alt="Лого"
+                                    class="logo" />
       <a href="/" class="no-visited title">Зелёный коридор</a><br />
-      <span id="slogan">Один листок - один мир!</span></div>
+      <span id="slogan">Один листок - один мир!</span></div>-->
       <table id="headermobile">
         <tr><td><img src="/img/logo_small.png" alt="Лого" class="logo" /></td>
           <td><a href="/" class="no-visited title">Зелёный коридор</a></td>
         </tr>
       </table>
+      <span id="slogan">Один листок - один мир!</span>
       
   <script type="text/javascript">
   (function () {
@@ -70,13 +72,15 @@
     {{content}}
     </div></div>
     <footer>
-    © СЭО "<span class="green">Зелёный коридор</span>", 2015-2018
-    <div id="gymlink"><a href="http://1543.ru" target="_blank" class="no-visited">Сайт гимназии №1543</a></div>
-    <div id="mobsoc">Наш e-mail: <a href="mailto:main@zelkor.ml">main@zelkor.ml</a>
-    <div class="social"><a href="http://vk.com/greenchan" target="_blank"><img src="/img/vk_small.png" alt="Паблик ВКонтакте" class="socimg" /></a><a href="http://t.me/zelkor" target="_blank"><img src="/img/tg_small.png" alt="Канал в Telegram" class="socimg" /></a><a href="/feed.xml"><img src="/img/rss_small.png" alt="RSS" class="socimg" /></a><!--<a href="http://bit.ly/ZelKorNews" target="_blank"><img src="/img/mail_small.png" alt="E-mail рассылка" class="socimg" /></a>--></div></div>
+    <div id="mobsoc">
+    <div class="social"><a href="http://vk.com/greenchan" target="_blank"><img src="/img/vk_small.png" alt="Паблик ВКонтакте" class="socimg" /></a><a href="http://t.me/zelkor" target="_blank"><img src="/img/tg_small.png" alt="Канал в Telegram" class="socimg" /></a><a href="/feed.xml"><img src="/img/rss_small.png" alt="RSS" class="socimg" /></a><a href="mailto:main@zelkor.ml" target="_blank"><img src="/img/mail_small.png" alt="E-mail" class="socimg" /></a></div></div>
+      <div id="cr">© СЭО "Зелёный коридор",
+        2015-2018</div>
+      <div id="gymlink"><a href="http://1543.ru" target="_blank"
+                           class="no-visited" style="color: #eee;">Сайт
+        гимназии №1543</a></div>
     </footer>
     {% include nav.html %}
-    {% include contacts.html %}
     <script
             src="https://code.jquery.com/jquery-1.12.4.min.js"
             integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="

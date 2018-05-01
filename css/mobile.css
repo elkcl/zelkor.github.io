@@ -5,23 +5,7 @@
 }
 
 body {
-  background-color: #eee;
   font-size: 90%;
-}
-
-header {
-  font-weight: bold;
-  font-family: Rotonda, fantasy;
-  background-color: #fff;
-  box-shadow: 0 3px 1px rgba(0,0,0,0.5);
-  z-index: 10;
-  margin: 0 0 10px;
-}
-
-footer {
-  background-color: #fff;
-  border: none;
-  text-align: center;
 }
 
 #main {
@@ -31,37 +15,14 @@ footer {
 .logo {
   width: auto;
   height: 50px;
-  margin: 6px;
-  vertical-align: middle;
 }
 
 .title {
-  vertical-align: middle;
   font-size: 50%;
 }
 
 #slogan {
   display:none;
-}
-
-#background {
-  background: #eee none;
-  margin: 0;
-  padding: 0 10px 10px;
-}
-
-#contacts {
-  display: none;
-}
-
-#headerdesktop {
-  display: none;
-}
-
-#headermobile {
-  display: table;
-  border: none;
-  border-collapse: collapse;
 }
 
 nav {
@@ -78,15 +39,6 @@ nav {
 
 nav.opened {
   max-height: 100%;
-}
-
-#gymlink {
-  float: none;
-}
-
-.socimg {
-  margin: 1%;
-  width: 32px;
 }
 
 .articleimg {
@@ -157,10 +109,17 @@ nav.opened {
           transform-origin: 15% 95%;
 }
 
-#mobsoc {
-display: block;
-}
-
+  #gymlink {
+    float: none;
+    margin: 0;
+  }
+  #cr {
+    float: none;
+    margin: 0;
+  }
+  footer {
+    padding: 10px;
+  }
 }
 
 @media (min-width: 600px) {
