@@ -9,6 +9,10 @@
     font-style: normal;
 } */
 
+html {
+  position: relative;
+}
+
 body {
   margin: 0;
   font: 13pt Arial, sans-serif;
@@ -62,6 +66,10 @@ footer {
   background-color: #3C3D41;
   text-align: center;
   color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 
 #main {
@@ -76,6 +84,7 @@ footer {
   background: #eee none;
   margin: 0;
   padding: 0px 10px 10px;
+  margin-bottom: 56px;
 }
 
 #slogan {
