@@ -38,6 +38,17 @@
                                            endif %}-->
   </head>
   <body>
+    <nav id="headernav">
+      <a href="/orgnews" {% if page.url contains 'orgnews'
+      %}class="selected"{% endif %}>Новости организации</a>
+      <a href="/projects" {% if page.url contains 'projects' %}class="selected"{% endif %}>Проекты</a>
+      <a href="/journalism" {% if page.url contains 'journalism' or page.url
+      contains 'j_articles' %}class="selected"{% endif %}>Журналистика</a>
+      <a href="/basil" {% if page.url contains 'basil' %}class="selected"{% endif %}>"Базилик"</a>
+      <a href="/about" {% if page.url contains 'about' %}class="selected"{% endif %}>О нас</a>
+      <a href="/search" {% if page.url contains 'search' %}class="selected"{% endif
+      %}>Поиск</a>
+    </nav>
     <header>
       <div class="nav">
       <button class="nav-toggle">
@@ -56,21 +67,22 @@
         </tr>
       </table>
       <span id="slogan">Один листок - один мир!</span>
-      
   <script type="text/javascript">
   (function () {
     let toggle = document.querySelector('.nav-toggle');
 
     toggle.addEventListener('click', function() {
     this.classList.toggle('opened');
-    document.getElementsByTagName('nav')[0].classList.toggle('opened');
+    document.getElementsByTagName('nav')[1].classList.toggle('opened');
   });
 })();
 </script>
    </header>
-   <div id="background"><div id="main">
+   <div id="background">
+     <div id="main">
     {{content}}
-    </div></div>
+    </div><div id="news"><h1>Свежие новости</h1>
+     {% include post_cycle.html limit=3 %}</div></div>
     <footer>
     <div id="mobsoc">
     <div class="social"><a href="http://vk.com/greenchan" target="_blank"><img src="/img/vk_small.png" alt="Паблик ВКонтакте" class="socimg" /></a><a href="http://t.me/zelkor" target="_blank"><img src="/img/tg_small.png" alt="Канал в Telegram" class="socimg" /></a><a href="/feed.xml"><img src="/img/rss_small.png" alt="RSS" class="socimg" /></a><a href="mailto:main@zelkor.ml" target="_blank"><img src="/img/mail_small.png" alt="E-mail" class="socimg" /></a></div></div>
@@ -89,6 +101,16 @@
     <script src="/js/simplebox.min.js"></script>
     <script>$(function () {
       $(".slb").simplebox();
-    });</script>
+    });
+    window.onscroll = function () {
+      var scrolled = window.pageYOffset || document.documentElement.scrollTop;
+      if (scrolled < 101) {
+        document.getElementById('news').style.top = (111 - scrolled) + 'px'
+      }
+      else {
+        document.getElementById('news').style.top = '10px';
+      }
+    }
+    </script>
   </body>
 </html>

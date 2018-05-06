@@ -74,18 +74,18 @@ footer {
 }
 
 #main {
-  margin: 0 0 0 200px;
+  margin: 0 350px 0 0;
   padding: 10px;
   background-color: #fff;
   text-align: left;
-  min-height: 420px;
+  min-height: 480px;
 }
 
 #background {
   background: #eee none;
   margin: 0;
   padding: 0px 10px 10px;
-  margin-bottom: 56px;
+  margin-bottom: 61px;
 }
 
 #slogan {
@@ -111,7 +111,7 @@ nav {
   position: fixed;
   top: 147px;
   left: 10px;
-  box-shadow:2px 2px 12px 1px rgba(0,0,0,.2);
+  box-shadow: 2px 2px 12px 1px rgba(0,0,0,.2);
 }
 
 nav a {
@@ -292,4 +292,41 @@ a:visited.title.no-visited {
   float: left;
   margin-top: -40px;
   margin-left: 10px;
+}
+
+nav#headernav {
+  width: auto;
+  position: static;
+  box-shadow: none;
+  float: right;
+  margin-right: 10px;
+}
+
+nav#headernav a {
+  border-bottom: none;
+  border-top: solid thick green;
+  font-size: 13pt;
+  display: inline-block;
+  height: 56px;
+  margin: 0 -3px;
+  padding: 40px 10px 0;
+}
+
+nav#headernav a:link:not(.selected), nav#headernav a:visited:not(.selected) {
+  border-color: green;
+}
+
+nav#mobilenav {
+  display: none;
+}
+
+#news {
+  background-color: #fff;
+  font-size: 80%;
+  width: 310px;
+  padding: 10px;
+  margin: 0 15px;
+  box-shadow: 2px 2px 12px 1px rgba(0,0,0,.2);
+  position: fixed;
+  right: 0;
 }

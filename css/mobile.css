@@ -127,6 +127,22 @@ nav.opened {
   #background {
     margin-bottom: 95px;
   }
+
+  nav#headernav {
+    display: none;
+  }
+
+  nav#mobilenav {
+    display: block;
+  }
+
+  #news {
+    position: static;
+    box-shadow: none;
+    width: auto;
+    margin: 10px 0;
+    font-size: 100%;
+  }
 }
 
 @media (min-width: 600px) {
