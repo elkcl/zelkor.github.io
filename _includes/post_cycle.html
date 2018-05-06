@@ -1,23 +1,23 @@
-<div style="text-align: left;"><ul class="bottom-border">
+<div style="text-align: left;"><div class="bottom-border">
   {% if include.limit %}
   {% for post in site.posts limit:include.limit %}
-  <li class="top-border">
+  <div class="top-border">
     <h2><a href="{{post.url}}">{{post.title}}</a></h2>
     <span class="italic">Дата:</span> {{post.date | date: "%d.%m.%Y"}} <br />
     {% if post.upd %}<span class="italic green">Обновлено: {{post.upd | date:
 "%d.%m.%Y"}}</span> <br />{% endif %}
     <span class="italic">{{post.meta}}</span>
-  </li>
+  </div>
   {% endfor %}
   {% else %}
   {% for post in site.posts %}
-  <li class="top-border">
+  <div class="top-border">
     <h2><a href="{{post.url}}">{{post.title}}</a></h2>
     <span class="italic">Дата:</span> {{post.date | date: "%d.%m.%Y"}} <br />
     {% if post.upd %}<span class="italic green">Обновлено: {{post.upd | date:
 "%d.%m.%Y"}}</span> <br />{% endif %}
     <span class="italic">{{post.meta}}</span>
-  </li>
+  </div>
   {% endfor %}
   {% endif %}
-</ul></div>
+</div></div>

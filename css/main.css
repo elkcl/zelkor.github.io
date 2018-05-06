@@ -309,6 +309,8 @@ nav#headernav a {
   height: 56px;
   margin: 0 -3px;
   padding: 40px 10px 0;
+  min-width: 80px;
+  text-align: center;
 }
 
 nav#headernav a:link:not(.selected), nav#headernav a:visited:not(.selected) {
