@@ -330,3 +330,20 @@ nav#mobilenav {
   right: 0;
   top: 111px;
 }
+
+.menu a {
+  display: inline-block;
+  padding: 10px;
+  font: bold 16pt Rotonda;
+  text-decoration: none;
+}
+
+.menu a:link, .menu a:visited {
+  color: green;
+  background-color: #fff;
+}
+
+.menu a:hover {
+  color: #fff;
+  background-color: green;
+}
