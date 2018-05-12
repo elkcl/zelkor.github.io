@@ -17,5 +17,5 @@ bundle exec jekyll build
 cd _site
 git config user.email "elkcl@zelkor.ml"
 git config user.name "Elk Cloner"
-git add --all
+git add .
 git commit -am "Travis #$TRAVIS_BUILD_NUMBER" git push origin master
