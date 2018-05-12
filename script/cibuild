@@ -18,4 +18,5 @@ cd _site
 git config user.email "elkcl@zelkor.ml"
 git config user.name "Elk Cloner"
 git add .
-git commit -m "Travis #$TRAVIS_BUILD_NUMBER" git push origin master
+git commit -a -m "Travis #$TRAVIS_BUILD_NUMBER"
+git push origin master
