@@ -1,5 +1,5 @@
 <url>
-  <loc>https://zelkor.ml{{include.entry.url}}</loc>
+  <loc>https://zelkor.org{{include.entry.url}}</loc>
   {% if include.entry.changefreq %}
     <changefreq>{{include.entry.changefreq}}</changefreq>
   {% endif %}

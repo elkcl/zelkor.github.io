@@ -1,1 +1,3 @@
-Sitemap: https://zelkor.ml/sitemap.xml
+User-agent: *
+Sitemap: https://zelkor.org/sitemap.xml
+Host: zelkor.org
