@@ -15,6 +15,7 @@ git clone https://${GH_TOKEN}@github.com/zelkor1/zelkor1.github.io.git _site
 bundle exec jekyll build
 # push
 cd _site
+echo "zelkor.org" > CNAME
 git config user.email "elkcl@zelkor.ml"
 git config user.name "Elk Cloner"
 git add .
