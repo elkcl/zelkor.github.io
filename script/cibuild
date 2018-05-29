@@ -16,6 +16,7 @@ bundle exec jekyll build
 # push
 cd _site
 echo "zelkor.org" > CNAME
+echo "---\nlayout: default\n---\n\n<h1>Тест</h1/>\n<p>блаблабла</p>" > test.html 
 git config user.email "elkcl@zelkor.ml"
 git config user.name "Elk Cloner"
 git add .
