@@ -12,7 +12,6 @@ mkdir _site
 # clone remote repo to "_site"
 git clone https://${GH_TOKEN}@github.com/zelkor1/zelkor1.github.io.git _site
 # build with Jekyll into "_site"
-echo "---\nlayout: default\n---\n\n<h1>Тест</h1/>\n<p>блаблабла</p>" > test.html
 bundle exec jekyll build
 # push
 cd _site
