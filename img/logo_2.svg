@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   viewBox="20 10 80 90"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
@@ -56,7 +55,7 @@
        fill="#008000"
        rx="10"
       id="rect2" />-->
-    <!--<rect
+    <rect
        width="90"
        height="90"
        fill="#ffffff"
@@ -68,7 +67,23 @@
        rx="5"
        x="5"
        y="5"
-       id="rect4" />-->
+       id="rect4" />
+  </g>
+  <g
+     class="lines"
+     id="g18">
+    <line
+       x1="50"
+       y1="40"
+       x2="50"
+       y2="85"
+       stroke="#000000"
+       stroke-width="3"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       id="line14" />
+    <polyline points="37,65 50,75 63,65" fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <polyline points="42,52 50,60 58,52" fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
   </g>
   <g
      class="leaf"
@@ -92,22 +107,7 @@
        stroke-linejoin="round"
        id="line10" />
   </g>
-  <g
-     class="lines"
-     id="g18">
-    <line
-       x1="50"
-       y1="40"
-       x2="50"
-       y2="85"
-       stroke="#008000"
-       stroke-width="3"
-       stroke-linecap="round"
-       stroke-linejoin="round"
-       id="line14" />
-    <polyline points="37,65 50,75 63,65" fill="none" stroke="#008000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
-    <polyline points="42,52 50,60 58,52" fill="none" stroke="#008000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
-  </g>
+  
   <path
      sodipodi:type="spiral"
      style="fill:none;fill-rule:evenodd;stroke:#008000;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -120,4 +120,4 @@
      sodipodi:argument="-25.332207"
      sodipodi:t0="0.505"
      d="m 39.321294,24.722053 c 0.156641,1.076512 -0.750836,1.980362 -1.774427,2.104044 -1.48685,0.179659 -2.719101,-1.077888 -2.862472,-2.498427 -0.200838,-1.989943 1.488001,-3.622709 3.396819,-3.784064 2.595245,-0.21938 4.707869,1.99055 4.884701,4.488435 0.23448,3.312214 -2.594914,5.991268 -5.79211,6.180264 -4.150305,0.245338 -7.489593,-3.31047 -7.686636,-7.326677 -0.251147,-5.118973 4.146597,-9.219528 9.110971,-9.419697 6.227675,-0.251107 11.19776,5.112672 11.395329,11.163827 0.004,0.123372 0.0062,0.246804 0.0065,0.370242" />
-</svg> 
+</svg>
