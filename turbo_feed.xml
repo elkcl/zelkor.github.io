@@ -9,7 +9,13 @@
 	 <item turbo="true">
 	 	<link>{{site.url}}{{post.url}}</link>
 	 	<turbo:content>
-	 		<![CDATA[{{ post.content | xml_escape }}]>
+	 		<![CDATA[
+	 		<header>
+	 			<h1>{{post.title | xml_escape}}</h1>
+	 			</header>
+	 			<p>{{post.meta | xml_escape}}</p>
+	 		{{ post.content | xml_escape }}
+	 		]>
 	 	</turbo:content>
 	 	</item>
 	 	{% endfor %}
