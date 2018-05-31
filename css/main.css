@@ -49,8 +49,8 @@ header {
 }
 
 .logo {
-  width: 80px;
-  height: auto;
+  width: auto;
+  height: 80px;
   margin: 6px;
   margin-bottom: 5px;
   margin-right: 0;
@@ -308,11 +308,12 @@ nav#headernav a {
   border-top: solid thick green;
   font-size: 13pt;
   display: inline-block;
-  height: 56px;
-  margin: 0 -3px;
-  padding: 40px 10px 0;
-  min-width: 80px;
+  height: 36px;
+  margin: -20px -3px 0 -3px;
+  padding: 40px 10px 20px;
+  /*min-width: 70px;*/
   text-align: center;
+  max-width: 115px;
 }
 
 nav#headernav a:link:not(.selected), nav#headernav a:visited:not(.selected) {
@@ -350,4 +351,10 @@ nav#mobilenav {
 .menu a:hover {
   color: #fff;
   background-color: green;
+}
+
+nav#headernav a#twoline {
+  padding-bottom: 40px;
+  padding-top: 20px;
+  margin-top: 0;
 }

@@ -1,4 +1,4 @@
-@media (max-width: 800px) {
+@media (max-width: 1025px) {
 
 *, *:after, *:before {
   transition: .5s ease-in-out;
@@ -7,10 +7,6 @@
 body {
   font-size: 90%;
 }
-
-#main {
-  margin: 0;
-  }
 
 .logo {
   width: auto;
@@ -135,13 +131,21 @@ nav.opened {
   nav#mobilenav {
     display: block;
   }
+  #news {
+    top: 81px;
+  }
+}
 
+@media (max-width: 900px) {
   #news {
     position: static;
     box-shadow: none;
     width: auto;
     margin: 10px 0;
     font-size: 100%;
+  }
+  #main {
+    margin: 0;
   }
 }
 

@@ -9,8 +9,8 @@
     <meta name="description" content='{{page.meta}}' />
     <meta name="theme-color" content="#008000">
     <link href='https://zelkor.org/feed.xml' rel='alternate' type='application/atom+xml' />
-    <link rel="shortcut icon" href="/img/logo_icon.png" />
-    <link rel="apple-touch-icon" href="/img/logo_icon.png" />
+    <link rel="shortcut icon" href="/img/logo_2.png" />
+    <link rel="apple-touch-icon" href="/img/logo_2.png" />
     <link type="text/css" rel="stylesheet" href="/css/rotonda.css" />
     <link type="text/css" rel="stylesheet" href="/css/main.css" />
     <link type="text/css" rel="stylesheet" href="/css/mobile.css" media="screen" />
@@ -42,7 +42,7 @@
   </head>
   <body>
     <nav id="headernav">
-      <a href="/orgnews" {% if page.url contains 'orgnews'
+      <a href="/orgnews" id="twoline" {% if page.url contains 'orgnews'
       %}class="selected"{% endif %}>Новости организации</a>
       <a href="/projects" {% if page.url contains 'projects' %}class="selected"{% endif %}>Проекты</a>
       <a href="/journalism" {% if page.url contains 'journalism' or page.url
@@ -65,7 +65,7 @@
       <a href="/" class="no-visited title">Зелёный коридор</a><br />
       <span id="slogan">Один листок - один мир!</span></div>-->
       <table id="headermobile">
-        <tr><td><img src="/img/logo_2.svg" alt="Лого" class="logo" /></td>
+        <tr><td><img src="/img/logo_test.svg" alt="Лого" class="logo" /></td>
           <td><a href="/" class="no-visited title">Зелёный коридор</a></td>
         </tr>
       </table>
@@ -105,15 +105,20 @@
     <script>$(function () {
       $(".slb").simplebox();
     });
-    window.onscroll = function () {
+    var scro = function () {
       var scrolled = window.pageYOffset || document.documentElement.scrollTop;
       if (scrolled < 101) {
-        document.getElementById('news').style.top = (111 - scrolled) + 'px';
+        document.getElementById('news').style.top =
+            (document.getElementsByTagName("header")[0].clientHeight + 10 -
+                scrolled) + 'px';
       }
       else {
         document.getElementById('news').style.top = '10px';
       }
     }
+    window.onscroll = scro;
+    window.onload = scro;
+    window.onresize = scro;
     </script>
   </body>
 </html>
