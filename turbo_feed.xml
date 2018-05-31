@@ -11,10 +11,10 @@
 	 	<turbo:content>
 	 		<![CDATA[
 	 		<header>
-	 			<h1>{{post.title | xml_escape}}</h1>
+	 			<h1>{{post.title}}</h1>
 	 			</header>
-	 			<p>{{post.meta | xml_escape}}</p>
-	 		{{ post.content | xml_escape }}
+	 			<p>{{post.meta}}</p>
+	 		{{ post.content }}
 	 		]>
 	 	</turbo:content>
 	 	</item>
