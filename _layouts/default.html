@@ -7,7 +7,9 @@
 <meta name="google-site-verification" content="Ux-EEkqSW9p0sLljNqj8RcOqzS11XkzrdDK3IzcgaWU" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content='{{page.meta}}' />
-    <meta name="theme-color" content="#008000">
+    <meta name="theme-color" content="#008000" />
+    <meta name="keywords"
+          content="сэо зелёный коридор зелкор экология{% if page.keywords %} {{page.keywords}}{% endif %}" />
     <link href='https://zelkor.org/feed.xml' rel='alternate' type='application/atom+xml' />
     <link rel="shortcut icon" href="/img/logo_2.png" />
     <link rel="apple-touch-icon" href="/img/logo_2.png" />
@@ -115,7 +117,7 @@
       else {
         document.getElementById('news').style.top = '10px';
       }
-    }
+    };
     window.onscroll = scro;
     window.onload = scro;
     window.onresize = scro;
