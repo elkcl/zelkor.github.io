@@ -107,7 +107,7 @@
     });
     var scro = function () {
       var scrolled = window.pageYOffset || document.documentElement.scrollTop;
-      if (scrolled < 101) {
+      if (scrolled < document.getElementsByTagName("header")[0].clientHeight) {
         document.getElementById('news').style.top =
             (document.getElementsByTagName("header")[0].clientHeight + 10 -
                 scrolled) + 'px';
