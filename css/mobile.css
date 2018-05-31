@@ -134,6 +134,9 @@ nav.opened {
   #news {
     top: 81px;
   }
+  #main {
+    margin-bottom: 10px;
+  }
 }
 
 @media (max-width: 900px) {
@@ -149,7 +152,7 @@ nav.opened {
   }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 600px) and (max-width: 900px) {
 
 .articleimg {
   float: right;
@@ -163,5 +166,7 @@ nav.opened {
 .articleimg > img {
   width: 100%;
 }
-
+  .articleimg.small_img {
+    width: 40%;
+  }
 }

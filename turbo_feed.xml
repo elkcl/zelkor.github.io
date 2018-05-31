@@ -15,7 +15,7 @@
 	 			</header>
 	 			<p>{{post.meta}}</p>
 	 		{{ post.content }}
-	 		]>
+	 		]]>
 	 	</turbo:content>
 	 	</item>
 	 	{% endfor %}
