@@ -103,9 +103,11 @@
             integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
             crossorigin="anonymous"></script>
 
-    <script src="/js/simplebox.min.js"></script>
+    <script src="/js/simplebox.js"></script>
     <script>$(function () {
-      $(".slb").simplebox();
+      $(".slb").simplebox({
+        postfix: "_full"
+      });
     });
     var scro = function () {
       var scrolled = window.pageYOffset || document.documentElement.scrollTop;
