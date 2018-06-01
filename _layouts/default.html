@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+q<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="ru" xml:lang="ru">
   <head>
     <title>{% if page.title %}{{page.title}} | {% endif %}Зелёный коридор{% if page.titleAfter %} | {{page.titleAfter}}{% endif %}</title>
@@ -11,8 +11,9 @@
     <meta name="keywords"
           content="сэо зелёный коридор зелкор экология{% if page.keywords %} {{page.keywords}}{% endif %}" />
     <link href='https://zelkor.org/feed.xml' rel='alternate' type='application/atom+xml' />
-    <link rel="shortcut icon" href="/img/logo_2.png" />
-    <link rel="apple-touch-icon" href="/img/logo_2.png" />
+    <link rel="shortcut icon" href="/img/favicon.png" type="image/png" />
+    <link rel="icon" href="/img/favicon.png" type="image/png" />
+    <link rel="apple-touch-icon" href="/img/favicon.png" />
     <link type="text/css" rel="stylesheet" href="/css/rotonda.css" />
     <link type="text/css" rel="stylesheet" href="/css/main.css" />
     <link type="text/css" rel="stylesheet" href="/css/mobile.css" media="screen" />
@@ -49,7 +50,7 @@
       <a href="/projects" {% if page.url contains 'projects' %}class="selected"{% endif %}>Проекты</a>
       <a href="/journalism" {% if page.url contains 'journalism' or page.url
       contains 'j_articles' %}class="selected"{% endif %}>Журналистика</a>
-      <a href="/basil" {% if page.url contains 'basil' %}class="selected"{% endif %}>"Базилик"</a>
+      <a href="/basil" {% if page.url contains 'basil' %}class="selected"{% endif %}>Базилик</a>
       <a href="/about" {% if page.url contains 'about' %}class="selected"{% endif %}>О нас</a>
       <a href="/search" {% if page.url contains 'search' %}class="selected"{% endif
       %}>Поиск</a>
