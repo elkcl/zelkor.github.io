@@ -1,0 +1,51 @@
+<hr />
+{% for post in paginator.posts %}
+<h2><a href="{{post.url}}">{{post.title}}</a></h2>
+<span class="italic">Дата:</span> {{post.date | date: "%d.%m.%Y"}} <br />
+{% if post.upd %}<span class="italic green">Обновлено: {{post.upd | date:
+"%d.%m.%Y"}}</span> <br />{% endif %}
+<span class="italic">{{post.meta}}</span>
+<hr />
+{% endfor %}
+<div style="text-align: center; width: 100%;">
+{% if paginator.previous_page %}
+<a href="{{ paginator.first_page_path }}" title="Первая страница"
+   class="pagebutton">
+  &#10218;</a>
+<a href="{{ paginator.previous_page_path }}" title="Предыдущая страница" class="pagebutton">
+  &#10216;</a>
+{% endif %}
+  {% if paginator.total_pages > 1 %}
+  <!--{% for trail in paginator.page_trail %}
+  <a
+          href="{{ trail.path }}"
+          title="{{ trail.title }}"
+          class="pagebutton{% if page.url == trail.path %} selected{% endif
+          %}">{{ trail.num }}</a>
+  {% endfor %}-->
+  {% for page in (1..paginator.total_pages) %}
+  {% if page == paginator.page %}
+  <a
+     title="Страница {{ page }} из {{ paginator.total_pages }}"
+     class="pagebutton selected">{{ page }}</a>
+  {% elsif page == 1 %}
+  <a
+          href="{{ paginator.first_page_path }}"
+          title="Страница 1 из {{ paginator.total_pages }}"
+          class="pagebutton">{{ page }}</a>
+  {% else %}
+  <a
+          href="{{ site.pagination.permalink | prepend: include.path | replace: ':num', page }}"
+          title="Страница {{ page }} из {{ paginator.total_pages }}"
+          class="pagebutton">{{ page }}</a>
+  {% endif %}
+  {% endfor %}
+  {% endif %}
+{% if paginator.next_page %}
+<a href="{{ paginator.next_page_path }}" title="Следующая страница"
+   class="pagebutton">&#10217;
+</a>
+<a href="{{ paginator.last_page_path }}" title="Последняя страница"
+   class="pagebutton">&#10219;</a>
+{% endif %}
+</div>

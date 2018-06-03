@@ -352,3 +352,31 @@ nav#mobilenav {
   color: #fff;
   background-color: green;
 }
+
+a.pagebutton {
+  display: inline-block;
+  padding: 5px;
+  text-decoration: none;
+  margin: 0 -3px;
+  color: green;
+  border: #ddd thin solid;
+  width: 20px;
+  height: 20px;
+}
+
+a.pagebutton:link, a.pagebutton:visited {
+  color: green;
+  background-color: #fff;
+}
+
+a.pagebutton:hover {
+  color: #fff;
+  background-color: green;
+  border-color: #ddd;
+}
+
+a.pagebutton.selected, a.pagebutton.selected:link, a.pagebutton.selected:hover, a.pagebutton.selected:visited {
+  color: #fff;
+  background-color: green;
+  border-color: #ddd;
+}

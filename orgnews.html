@@ -3,9 +3,12 @@ layout: default
 title: 'Наши новости'
 meta: 'В этом разделе вы можете первыми узнавать о событиях  в жизни
 и работе "Зеленого коридора".'
+pagination:
+  enabled: true
+  category: orgnews
 ---
 
 <h1>Наши новости</h1>
 <p>В этом разделе вы можете первыми узнавать о событиях  в жизни
 и работе "Зеленого коридора".</p>
-{% include cat_cycle.html category=site.categories.orgnews %}
+{% include cycle.html path='/orgnews' %}

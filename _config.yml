@@ -7,3 +7,12 @@ algolia:
  application_id: 'LAX1QLYW8A'
  index_name:     'jekyll'
  search_only_api_key: 'f307fb7c842a1e1fe48a207c3b60b7ff'
+pagination:
+ enabled: true
+ per_page: 5
+ title: ':title — страница :num'
+ permalink: '/page:num/'
+ sort_reverse: true
+ trail:
+   before: 2
+   after: 2
