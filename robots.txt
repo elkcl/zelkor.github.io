@@ -2,4 +2,5 @@ User-agent: *
 Sitemap: https://zelkor.org/sitemap.xml
 Host: zelkor.org
 Allow: /
-Disallow: /search
+Disallow: /search$
+Disallow: /*page
