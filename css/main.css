@@ -196,7 +196,7 @@ ol li::before {
 }
 
 .yellow {
-  color: #eff22a;
+  color: #f2e500;
 }
 
 a:visited.no-visited {
@@ -337,10 +337,13 @@ nav#mobilenav {
 }
 
 .menu a {
-  display: inline-block;
+  display: table;
   padding: 10px;
   font: bold 16pt Rotonda;
   text-decoration: none;
+  /*width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;*/
 }
 
 .menu a:link, .menu a:visited {
@@ -362,6 +365,7 @@ a.pagebutton {
   border: #ddd thin solid;
   width: 20px;
   height: 20px;
+  font-family: Helvetica, sans-serif;
 }
 
 a.pagebutton:link, a.pagebutton:visited {

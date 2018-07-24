@@ -16,14 +16,23 @@
   &#10216;</a>
 {% endif %}
   {% if paginator.total_pages > 1 %}
-  <!--{% for trail in paginator.page_trail %}
-  <a
-          href="{{ trail.path }}"
+  {% for trail in paginator.page_trail %}
+  {% comment %}<!--<a
+          href="{{ trail.path | replace: 'index.html', '' }}"
           title="{{ trail.title }}"
           class="pagebutton{% if page.url == trail.path %} selected{% endif
-          %}">{{ trail.num }}</a>
-  {% endfor %}-->
-  {% for page in (1..paginator.total_pages) %}
+          %}">{{ trail.num }}</a>-->{% endcomment %}
+  {% if page.url == trail.path %}
+  <a title="Страница {{trail.num}} из {{paginator.total_pages}}"
+     class="pagebutton selected">{{trail.num}}</a>
+  {% else %}
+  <a
+          href="{{ trail.path | replace: 'index.html', '' }}"
+          title="Страница {{trail.num}} из {{ paginator.total_pages }}"
+          class="pagebutton">{{ trail.num }}</a>
+  {% endif %}
+  {% endfor %}
+  {% comment %}<!--{% for page in (1..paginator.total_pages) %}
   {% if page == paginator.page %}
   <a
      title="Страница {{ page }} из {{ paginator.total_pages }}"
@@ -39,7 +48,7 @@
           title="Страница {{ page }} из {{ paginator.total_pages }}"
           class="pagebutton">{{ page }}</a>
   {% endif %}
-  {% endfor %}
+  {% endfor %}-->{% endcomment %}
   {% endif %}
 {% if paginator.next_page %}
 <a href="{{ paginator.next_page_path }}" title="Следующая страница"
