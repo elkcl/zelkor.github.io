@@ -1,4 +1,4 @@
-exclude: ['README.md', 'CNAME']
+exclude: ['README.md', 'CNAME', 'Gemfile']
 permalink: pretty
 name: 'Зелёный коридор'
 description: 'Сайт самодеятельной экологической организации "Зелёный коридор" гимназии №1543'
