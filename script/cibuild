@@ -9,6 +9,7 @@ set -e
 # cleanup "_site"
 rm -rf _site
 mkdir _site
+rm vendor/bundle/ruby/2.4.0/gems/jekyll-3.8.4/lib/site_template/_posts/0000-00-00-welcome-to-jekyll.markdown.erb
 # clone remote repo to "_site"
 git clone https://${GH_TOKEN}@github.com/zelkor1/zelkor1.github.io.git _site
 # build with Jekyll into "_site"
