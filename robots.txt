@@ -1,6 +1,3 @@
 User-agent: *
-Sitemap: https://zelkor.org/sitemap.xml
-Host: zelkor.org
-Allow: /
-Disallow: /search$
-Disallow: /*page
+Host: zelkor1.github.io
+Disallow: /
