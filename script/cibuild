@@ -14,11 +14,9 @@ mkdir _site
 git clone https://${GH_TOKEN}@github.com/zelkor1/zelkor1.github.io.git _site
 # build with Jekyll into "_site"
 bundle exec jekyll build
-ALGOLIA_API_KEY=${ALGOLIA} bundle exec jekyll algolia
 # push
 cd _site
-echo "zelkor.org" > CNAME
-git config user.email "elkcl@zelkor.ml"
+git config user.email "elkcl@zelkor.org"
 git config user.name "Elk Cloner"
 git add .
 git commit -a -m "Travis #$TRAVIS_BUILD_NUMBER"
