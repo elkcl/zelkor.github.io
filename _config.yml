@@ -2,11 +2,7 @@ exclude: ['README.md', 'CNAME', 'Gemfile', 'vendor']
 permalink: pretty
 name: 'Зелёный коридор'
 description: 'Сайт самодеятельной экологической организации "Зелёный коридор" гимназии №1543'
-url: 'https://zelkor.org'
-algolia:
- application_id: 'LAX1QLYW8A'
- index_name:     'jekyll'
- search_only_api_key: 'f307fb7c842a1e1fe48a207c3b60b7ff'
+url: 'https://zelkor1.github.io'
 pagination:
  enabled: true
  per_page: 5
@@ -17,5 +13,3 @@ pagination:
    before: 2
    after: 2
 repository: "zelkor/zelkor.github.io"
-staticman:
-  branch: "master"
